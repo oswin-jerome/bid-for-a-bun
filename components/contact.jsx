@@ -6,14 +6,14 @@ const Contact = () => {
         Send us your valuable <span className="text-app-500">feedbacks</span>
       </h3>
 
-      <div className="w-[80vw] shadow bg-white rounded-lg mt-8 mb-5 m-auto grid grid-cols-2" >
-        <div className="bg-red-300">
-            s
+      <div className="w-[90vw] md:w-[60vw] shadow bg-white rounded-lg mt-8 mb-5 m-auto grid grid-cols-1 md:grid-cols-2" >
+        <div className="bg-app-300 hidden md:block ">
+            {/* <img src="assets/girl.png" className="h-80" alt="" /> */}
         </div>
         <div>
-            <form name="contact" className="w-9/12 m-auto py-5" method="POST" data-netlify="true">
+            <form name="contact" className="w-9/12 m-auto py-5 grid grid-cols-1" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact"/>
-                <div className="grid">
+                <div className="grid w-full ">
                     <label className="text-md" htmlFor="">Name</label>
                     <input name="Name" type="text" className="border-2 p-3 rounded-lg" />
                 </div>
