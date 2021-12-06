@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../components/footer';
 import Hero from '../components/hero'
+import Join from '../components/join';
 import NavBar from './../components/navBar'
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
       </Head>
       <NavBar />
       <Hero/>
+      <Join/>
+      <Footer/>
      </div>
   )
 }
