@@ -1,8 +1,17 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', 
+  './components/**/*.{js,ts,jsx,tsx}',"./components/hero.jsx"],
   darkMode: false, // or 'media' or 'class'
+  mode: 'jit',
   theme: {
+    backdropFilter: {
+      'none': 'none',
+      'blur': 'blur(20px)',
+    },
     extend: {
+      fontFamily: {
+        'roboto': ['Poppins'],
+     },
       colors: {
         'app': {
           '50': '#f6f9fb', 
@@ -22,5 +31,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-filters'),
+  ],
 }
