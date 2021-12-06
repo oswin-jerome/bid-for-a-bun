@@ -37,7 +37,7 @@ const Join = () => {
   ];
 
   return (
-    <div className="relative pb-20 overflow-hidden">
+    <div className="relative pb-20 overflow-hiddens">
       <div className="bg-app-500 z-[-1] absolute w-96 h-96 top-32 blur-3xl bg-opacity-20"></div>
       <div className="bg-red-500 z-[-1] absolute w-96 h-96 right-64 blur-3xl bg-opacity-5 hidden md:block"></div>
       <h3 className="text-center mt-10 md:mt-14 text-xl md:text-2xl font-bold text-gray-400">
