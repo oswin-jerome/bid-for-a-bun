@@ -1,6 +1,6 @@
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', 
-  './components/**/*.{js,ts,jsx,tsx}',"./components/hero.jsx"],
+  './components/**/*.{js,ts,jsx,tsx}',"./components/hero.jsx","./components/feedback.jsx"],
   darkMode: false, // or 'media' or 'class'
   mode: 'jit',
   theme: {

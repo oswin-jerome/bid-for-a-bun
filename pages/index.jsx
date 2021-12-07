@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Contact from '../components/contact';
+import Feedback from '../components/feedback';
 import Footer from '../components/footer';
 import Hero from '../components/hero'
 import Join from '../components/join';
@@ -18,6 +19,7 @@ export default function Home() {
       <Hero/>
       <Join/>
       <Contact/>
+      <Feedback/>
       <Footer/>
      </div>
   )
