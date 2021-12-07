@@ -4,20 +4,28 @@ const Feedback = () => {
 
     const cards = [
         {
-            name: "Card 1",
+            name: "Oswin Jerome",
             message:"lorem 23 kskdskdksdksk kksdk"
         },
         {
-            name: "Card 2",
+            name: "Prem Kumar",
             message:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters"
         },
         {
-            name: "Card 3",
+            name: "Bala Kumar",
             message:"It is a long established fact that a reader will be distracted. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters"
         },
         {
-            name: "Card 2",
+            name: "Abish Wilson",
             message:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters"
+        },
+        {
+            name: "Dinesh",
+            message:"lorem 23 kskdskdksdksk kksdk"
+        },
+        {
+            name: "Joey",
+            message:"It is a long established fact that a reader will be distracted. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters"
         },
     ]
 
